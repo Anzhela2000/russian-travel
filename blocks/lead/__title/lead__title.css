@@ -6,7 +6,7 @@
   color: #FFFFFF;
   text-align: center;
   flex-wrap: wrap;
-  max-width: 720px;
+  min-width: 720px;
   min-width: 288px;
 }
 
