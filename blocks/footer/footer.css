@@ -7,19 +7,18 @@
   padding-bottom: 24px;
   justify-content: space-between;
 }
- 
-@media (min-width:320px) and (max-width:767px){
-  .footer{
+
+@media (min-width:320px) and (max-width:767px) {
+  .footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-top: 32px;
   }
 }
-@media (min-width: 768px) and (max-width:1023px){
- .footer__copyright{
-   padding-top: 2px;
-}
-}
-@media (min-width:1024px) and (max-width:1279px){
 
+@media (min-width: 768px) and (max-width:1023px) {
+  .footer{
+    padding:88px 24px 24px;
+  }
 }
