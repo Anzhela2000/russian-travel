@@ -1,5 +1,4 @@
 .cover__background {
-  display: block;
   object-fit: cover;
   content: '';
   margin-top: 92px;
