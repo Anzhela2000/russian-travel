@@ -1,0 +1,51 @@
+.cover__background {
+  display: block;
+  object-fit: cover;
+  content: '';
+  margin-top: 92px;
+  min-height: 740px;
+  min-width: 1184px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.cover__background:before {
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.cover__background:hover {
+  color: aquamarine;
+}
+
+
+@media (min-width:320px) and (max-width:767px) {
+  .cover__background {
+    min-height: 200px;
+    min-width: 100%;
+    margin: 66px 0 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+  .cover__background {
+    min-height: 480px;
+    min-width: 100%;
+    margin: 90px 0 0;
+  }
+}
+
+@media (min-width:1024px) and (max-width:1279px) {
+  .cover__background {
+    min-height: 640px;
+    min-width: 100%;
+    margin: 92px 0 0;
+  }
+}

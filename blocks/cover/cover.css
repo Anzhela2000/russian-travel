@@ -1,17 +1,11 @@
 .cover {
   position: relative;
   z-index: 1;
-  display: flex;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 48px;
-  margin-right: 48px;
-  margin-top: 92px;
-  min-height: 740px;
-  background: url(../../images/__background.png);
+  background-image: url(../../images/__background.png);
   background-size: cover;
+  max-width: 1184px;
+  min-height: 740px;
+  object-fit: cover;
 }
 
 .cover::before {
@@ -24,8 +18,15 @@
   z-index: 1;
 }
 
-.cover::before:hover {
+.cover:hover::before {
   background-color: rgba(42, 44, 47, 0.8);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+
 }
 
 @media (min-width:320px) and (max-width:767px) {
