@@ -1,14 +1,4 @@
 .page {
-  font-family: Inter;
   background-color: #2A2C2F;
-  max-width: 1184px;
-  margin: 0 auto;
-}
-
-p {
-  margin: 0;
-}
-
-a:hover {
-  opacity: 0.8;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 }

@@ -1,9 +1,8 @@
 .cover__background {
   object-fit: cover;
-  content: '';
   margin-top: 92px;
   min-height: 740px;
-  min-width: 1184px;
+  min-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,31 +19,37 @@
   z-index: 2;
 }
 
-.cover__background:hover {
-  color: aquamarine;
+.cover__background:hover::before {
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+a.cover__background:hover {
+  opacity: 1;
 }
 
 
-@media (min-width:320px) and (max-width:767px) {
+@media (min-width:320px) and (max-width:767.98px) {
   .cover__background {
     min-height: 200px;
-    min-width: 100%;
     margin: 66px 0 0;
   }
 }
 
-@media (min-width: 768px) and (max-width:1023px) {
+@media (min-width: 768px) and (max-width:1023.98px) {
   .cover__background {
     min-height: 480px;
-    min-width: 100%;
-    margin: 90px 0 0;
+    margin: 65px 0 0;
   }
 }
 
-@media (min-width:1024px) and (max-width:1279px) {
+@media (min-width:1024px) and (max-width:1279.98px) {
   .cover__background {
     min-height: 640px;
-    min-width: 100%;
     margin: 92px 0 0;
   }
 }

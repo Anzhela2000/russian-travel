@@ -6,6 +6,7 @@
   max-width: 1184px;
   min-height: 740px;
   object-fit: cover;
+  background-position: center;
 }
 
 .cover::before {
@@ -20,16 +21,16 @@
 
 .cover:hover::before {
   background-color: rgba(42, 44, 47, 0.8);
+  transition: 0.7s;
   content: '';
   display: block;
   height: 100%;
   position: absolute;
   width: 100%;
   z-index: 3;
-
 }
 
-@media (min-width:320px) and (max-width:767px) {
+@media (min-width:320px) and (max-width:767.98px) {
   .cover {
     min-height: 200px;
     width: 100%;
@@ -37,18 +38,18 @@
   }
 }
 
-@media (min-width: 768px) and (max-width:1023px) {
+@media (min-width: 768px) and (max-width:1023.98px) {
   .cover {
     min-height: 480px;
     width: 100%;
-    margin: 90px 0 0;
+    margin: 65px 0 0;
   }
 }
 
-@media (min-width:1024px) and (max-width:1279px) {
+@media (min-width:1024px) and (max-width:1279.98px) {
   .cover {
     min-height: 640px;
-    width: 100%;
-    margin: 92px 0 0;
+    min-width: 1024px;
+    margin: 92px auto 0;
   }
 }

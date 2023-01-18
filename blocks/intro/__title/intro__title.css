@@ -6,15 +6,16 @@
   line-height: 58px;
 }
 
-@media (min-width: 320px) and (max-width:767px) {
+@media (min-width: 320px) and (max-width:767.98px) {
   .intro__title {
     margin-top: 64px;
     font-size: 32px;
     line-height: 35px;
+    max-width: 250px;
   }
 }
 
-@media (min-width: 768px) and (max-width:1023px) {
+@media (min-width: 768px) and (max-width:1023.98px) {
   .intro__title {
     letter-spacing: 0em;
     text-align: left;

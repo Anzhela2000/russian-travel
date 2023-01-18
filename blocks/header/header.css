@@ -1,25 +1,24 @@
 .header {
-  padding-left: 48px;
-  padding-right: 48px;
+  padding: 0;
   display: grid;
   grid-template-columns: auto auto;
 }
 
-@media (min-width: 320px) and (max-width:767px) {
+@media (min-width: 320px) and (max-width:767.98px) {
   .header {
     padding-left: 16px;
     padding-right: 16px;
   }
 }
 
-@media (min-width: 768px) and (max-width:1023px) {
+@media (min-width: 768px) and (max-width:1023.98px) {
   .header {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media (min-width:1024px) and (max-width:1279px) {
+@media (min-width:1024px) and (max-width:1279.98px) {
   .header {
     padding-left: 48px;
     padding-right: 48px;

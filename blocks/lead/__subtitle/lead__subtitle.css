@@ -4,11 +4,11 @@
   line-height: 120%;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 32px;
+  margin: 32px 0 0;
   max-width: 640px;
 }
 
-@media (min-width:320px) and (max-width:767px) {
+@media (min-width:320px) and (max-width:767.98px) {
   .lead__subtitle {
     font-size: 16px;
     max-width: 288px;
