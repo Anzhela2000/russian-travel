@@ -10,7 +10,6 @@
   color: #FFFFFF;
   line-height: 22px;
   z-index: 5;
-  text-align: center;
 }
 
 @media (min-width:320px) and (max-width:767px) {
