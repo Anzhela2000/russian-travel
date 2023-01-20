@@ -10,6 +10,7 @@
   .lead {
     padding-left: 0;
     padding-right: 0;
+    max-width: 320px;
   }
 }
 
@@ -17,6 +18,7 @@
   .lead {
     padding-left: 0px;
     padding-right: 0px;
+    max-width: 768px;
   }
 }
 
