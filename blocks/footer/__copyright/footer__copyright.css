@@ -4,10 +4,11 @@
   color: #FFFFFF;
   line-height: 16px;
   padding-top: 2px;
+  padding-left: 16px;
   margin: 0;
 }
 
-@media (min-width:320px) and (max-width:767.98px) {
+@media (min-width:320px) and (max-width:767px) {
   .footer__copyright {
     padding-top: 48px;
   }

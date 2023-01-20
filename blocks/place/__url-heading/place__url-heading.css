@@ -4,19 +4,20 @@
   font-weight: 400;
   letter-spacing: 2px;
   line-height: 20px;
-  text-transform: bold;
+  font-weight: normal;
   margin: 0;
+  text-transform: uppercase;
 }
 
 
-@media (min-width:320px) and (max-width:767.98px) {
+@media (min-width: 320px) and (max-width:767px) {
   .place__url-heading {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 12px;
   }
 }
 
-@media (min-width: 768px) and (max-width:1023.98px) {
+@media (min-width: 768px) and (max-width:1023px) {
   .place__url-heading {
     line-height: 12px;
   }
