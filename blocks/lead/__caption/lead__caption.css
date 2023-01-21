@@ -9,14 +9,14 @@
   text-transform: uppercase;
 }
 
-@media (min-width:320px) and (max-width:767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .lead__caption {
     padding-left: 16px;
     padding-right: 0;
   }
 }
 
-@media (min-width: 768px) and (max-width:1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .lead__caption {
     padding-left: 24px;
     padding-right: 0px;

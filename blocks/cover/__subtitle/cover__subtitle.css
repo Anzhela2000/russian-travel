@@ -12,7 +12,7 @@
   z-index: 5;
 }
 
-@media (min-width:320px) and (max-width:767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .cover__subtitle {
     font-size: 14px;
     padding: 0;

@@ -3,7 +3,7 @@
   object-fit: cover;
 }
 
-@media (min-width: 768px) and (max-width:1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .photo-grid__item {
     max-height: 264px;
     max-width: 352px;
